@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background: white;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 950px;
+    width: 1000px;
+    background: black;
+    margin: auto;
+}
+nav{
+    height: 100px;
+    width: 1000px;
+    background: #C8E6C9;
+}
+#box1{
+    height: 100px;
+    width: 200px;
+    background: #66BB6A;
+    float: left;
+}
+#box2{
+    height: 100px;
+    width: 200px;
+    background: #4CAF50;
+    float: left;
+}
+#box3{
+    height: 100px;
+    width: 200px;
+    background: #43A047;
+    float: left;
+}
+#box4{
+    height: 100px;
+    width: 200px;
+    background: #388E3C;
+    float: left;
+}
+#box5{
+    height: 100px;
+    width: 200px;
+    background: #2E7D32;
+    float: left;
+}
+header{
+    height: 300px;
+    width: 1000px;
+    background: blue;
+}
+#banner{
+    height: 300px;
+    width: 800px;
+    background: #154360;
+    float: left;
+}
+#logo{
+    height: 100px;
+    width: 200px;
+    background: #1F618D;
+    float: left;
+}
+#login{
+    height: 100px;
+    width: 200px;
+    background: #2471A3;
+    float: left;
+}
+#form{
+    height: 100px;
+    width: 200px;
+    background: #2980B9;
+    float: left;
+}
+main{
+    height: 500px;
+    width: 1000px;
+    background: lightsalmon;
+}
+#izquierda{
+    height: 500px;
+    width: 200px;
+    background: #EB984E;
+    float: left;
+}
+article{
+    height: 500px;
+    width: 500px;
+    background: #F0B27A;
+    float: left;
+}
+#derecha{
+    height: 500px;
+    width: 300px;
+    background: #EB984E;
+    float: left;
+}
+footer{
+    height: 50px;
+    width: 1000px;
+    background: yellow;
+}

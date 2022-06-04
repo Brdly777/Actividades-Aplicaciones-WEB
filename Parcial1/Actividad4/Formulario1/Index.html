@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" minlength="2" maxlength="10" placeholder="Nombre Completo" required>
+            </div>
+
+            <div>
+                <label for="correo">correo elctónico</label>
+                <input type="email" placeholder="Correo institucional">
+            </div>
+
+            <div>
+                <label for="cuatrimestre">Cuatrimestre</label>
+                <input type="number" name="cuatrimestre" id="cuatrimestre" min="0" max="12">
+            </div>
+
+            <div>
+                <label for="fechainscripcion">Fecha de Inscripcion</label>
+                <input type="date" name="fechainscripcion" id="fechainscripcion">
+                <input type="time" name="" id="">
+            </div>
+
+            <div>
+                <label for="baja">Es Baja</label>
+                <input type="checkbox" name="baja" id="baja" checked>
+            </div>
+
+            <div>
+                <label for="descuento">POrcentaje de beca</label>
+                <input type="radio" name="descuento" id="" value="completa">
+                <input type="radio" name="descuento" id=""  value="mediabeca">
+                <input type="radio" name="descuento" id="" value="sinbeca">
+            </div>
+
+            <div>
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" name="contrasenia" id="contrasenia">
+            </div>
+
+            <div>
+                <input type="range" name="velocidad" id="velocidad" step="1" min="1" max="10">
+            </div>
+
+            <div>
+                <input type="file" name="imagen" id="imagen">
+            </div>
+
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono">
+            </div>
+
+            <div>
+                <label>Choose a browser from this list:
+                    <input list="browsers" name="myBrowser" /></label>
+                    <datalist id="browsers">
+                      <option value="Chrome">
+                      <option value="Firefox">
+                      <option value="Internet Explorer">
+                      <option value="Opera">
+                      <option value="Safari">
+                      <option value="Microsoft Edge">
+                    </datalist>
+                    
+            </div>
+            <button>Press Me!!</button>
+        </form>
+    </main>
+</body>
+</html>
